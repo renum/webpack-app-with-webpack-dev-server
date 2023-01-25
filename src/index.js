@@ -1,5 +1,6 @@
 //src/index.js
 import styles from './style.css';
+import buttonStyles from './button.css';
 /*const test=()=>{
     console.log('test it');
 };test();*/
