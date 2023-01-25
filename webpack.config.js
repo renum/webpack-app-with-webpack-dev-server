@@ -30,6 +30,20 @@ module.exports = {
                 ]                  
             
                
+            },
+
+            {
+
+                test:/\.png|jpe?g|svg$/,
+                exclude: /node_modules/,
+                use:[
+                    {
+                        loader:"url-loader",
+                        options:{
+                            limit:5000
+                        }
+                    }
+                ]
             }
         ]
     },
